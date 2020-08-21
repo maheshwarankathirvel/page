@@ -1,0 +1,38 @@
+@media (min-width:800px){
+    .onebox,.twobox,.threebox,.fourbox,.fivebox,.sixbox{
+        font-size:17px;
+    }
+    .description{
+        font-size:24px;
+    }
+}
+@media (min-width:1300px){
+    .onebox,.twobox,.threebox,.fourbox,.fivebox,.sixbox{
+        font-size:22px;
+    }
+}
+@media (max-width:500px){
+    .bbord,.gbord,.vbord{
+        padding:6.5% 4%;
+    }
+    .bbord{
+        border: 2px solid #319cea;
+    }
+    .gbord{
+        border: 2px solid #3ed319;
+    }
+    .vbord{
+        border: 2px solid #ba31ea;
+    }
+    .onebox,.twobox,.threebox,.fourbox,.fivebox,.sixbox{
+        font-size:9px;
+    }
+    .green,.voilet{
+        padding:7% 7%;
+    }
+}
+@media (width:768px){
+    .blue,.green,.voilet{
+    padding: 8.8% 8.8%;
+    }
+}
